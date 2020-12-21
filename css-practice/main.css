@@ -21,10 +21,6 @@ main-nav__item a:active {
   color: olivedrab;
 }
 
-.main-header {
-  display: inline-block;
-}
-
 .main-header > div {
   display: inline-block;
 }
