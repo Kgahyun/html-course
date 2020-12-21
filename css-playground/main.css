@@ -1,0 +1,47 @@
+/* h1 {
+  color: white;
+  background-color: red;
+  font-family: "Anton", sans-serif;
+} */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Anton", sans-serif;
+}
+.test1 {
+  color: white;
+  background-color: red;
+}
+
+#test2 {
+  color: blue;
+  border: 2px solid black;
+  padding: 30px 20px;
+  margin-top: 100px;
+  width: 80%;
+  height: 300px;
+}
+
+.grandparent div h1 {
+  color: orange;
+}
+
+.com1 h2 + p {
+  color: red;
+}
+
+.com2 h2 ~ p {
+  color: red;
+}
+
+/* div > p {
+  color: red;
+} */
+
+div p {
+  color: red;
+}
