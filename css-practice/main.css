@@ -1,0 +1,39 @@
+* {
+  background-color: mistyrose;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Allan", cursive;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+.main-nav__item a {
+  color: navy;
+  border: 2px solid black;
+  padding: 4px;
+  margin: 5px;
+  text-decoration: none;
+}
+.main-nav__item a:hover,
+main-nav__item a:active {
+  color: olivedrab;
+}
+
+.main-header {
+  display: inline-block;
+}
+
+.main-header > div {
+  display: inline-block;
+}
+/* .main-header + div {
+  color: royalblue;
+} */
+.main-nav {
+  display: inline-block;
+}
+.main-contents {
+  font-family: "Nanum Myeongjo", serif;
+}
